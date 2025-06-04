@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -7,7 +7,25 @@
     <title>| Calculadora IMC</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="container">
+      <h1 class="contenedor">Calculadora IMC</h1>
+      <div>
+        <label>Peso</label>
+        <input type="number"></input>
+        <select name="" id="peso">
+          <option value="kg">kilogramos</option>
+          <option value="lb">libras</option>
+        </select>
+          <label>Altura</label>
+            <input type="text"></input>
+            <select name="" id="longitud">
+          <option value="cm">centimetros</option>
+          <option value="in">pulgadas</option>
+        </select>
+            <button class="calcular">Calcular</button>
+      </div>
+    </div>
+      <div><canvas id="grafico"></canvas></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
