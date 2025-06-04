@@ -11,21 +11,21 @@
       <h1 class="contenedor">Calculadora IMC</h1>
       <div>
         <label>Peso</label>
-        <input type="number"></input>
-        <select name="" id="peso">
+        <input type="number" id="peso-input"></input>
+        <select name="unidad-peso" id="selector-unidad-peso">
           <option value="kg">kilogramos</option>
           <option value="lb">libras</option>
         </select>
           <label>Altura</label>
-            <input type="text"></input>
-            <select name="" id="longitud">
+            <input type="number" id="longitud-input"></input>
+            <select name="unidad-altura" id="selector-unidad-altura">
           <option value="cm">centimetros</option>
           <option value="in">pulgadas</option>
         </select>
-            <button class="calcular">Calcular</button>
+            <button class="calcular" id="calcular">Calcular</button>
       </div>
     </div>
       <div><canvas id="grafico"></canvas></div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/js/imc.js"></script>
   </body>
 </html>
