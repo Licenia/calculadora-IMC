@@ -2,7 +2,6 @@ import { Chart } from "chart.js/auto";
 
 let miGrafico = null;
 export async function grafico(imc) {
-  console.log(imc)
   const posicionesResultado = [0, 0, 0, 0];
 
   if (imc < 18.5) {
