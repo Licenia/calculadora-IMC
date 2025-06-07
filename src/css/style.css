@@ -60,3 +60,7 @@ input {
   transform: scale(1.1);
   cursor: pointer;
 }
+
+.descripcion-imc{
+  max-width: 600px; margin: 2rem auto; padding: 1rem; background-color: #f9f9f9; border-left: 4px solid #ccc;
+}

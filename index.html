@@ -10,6 +10,22 @@
   <body>
     <div class="container" id="container" >
       <h1 class="contenedor">Calculadora IMC</h1>
+      <section class="descripcion-imc">
+  <p>
+    Esta calculadora te permite conocer tu <strong>Índice de Masa Corporal (IMC)</strong>, un valor estimado basado en tu peso y estatura.
+    El IMC es utilizado como una herramienta general para evaluar si tu peso está dentro de un rango saludable.
+  </p>
+  <br>
+  <p>
+    Selecciona las unidades de medida que prefieras (kilogramos/libras y centímetros/metros), ingresa tus datos, y presiona <strong>"Calcular"</strong>.
+  </p>
+  <br>
+  <p>
+    El resultado será mostrado en un gráfico de barras interactivo, indicándote si estás en una categoría de: <em>Bajo peso</em>, <em>Normal</em>, <em>Sobrepeso</em> u <em>Obesidad</em>.
+  </p>
+</section>
+
+
       <div class="form">
        <div>
          <label>Peso</label>
@@ -31,6 +47,7 @@
           </div>
           <div class="grafico"><canvas id="grafico"></canvas></div>
         </div>
+        
  <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
