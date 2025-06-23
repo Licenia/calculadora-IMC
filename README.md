@@ -46,7 +46,7 @@ Calculadora-IMC/
 ## Proyecto Publicado 
 
 Puedes ver la Calculadora de IMC funcionando aquí:
-https://tusuario.github.io/Calculadora-IMC
+https://licenia.github.io/Calculadora-IMC
 
 ## Como ejecutar el proyecto de manera local
 
